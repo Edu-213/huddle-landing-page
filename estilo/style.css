@@ -59,6 +59,13 @@ header img {
     font-weight: 600;
 }
 
+footer a {
+    color: white;
+    border: 1px solid white;
+    padding: 7px 7px 3px 7px;
+    border-radius: 50%;
+}
+
 
 
 @media (min-width:520px) {
