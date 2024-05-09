@@ -68,6 +68,52 @@ footer a {
 
 
 
-@media (min-width:520px) {
+@media (min-width: 520px) {
+
+    body {
+        background: var(--Violet) url(../images/bg-desktop.svg) no-repeat;
+        width: 1318px;
+        text-align: start;
+    }
+
+    header img {
+        width: 200px;
+        margin: 37px 25px 55px 100px;
+    }
+
+    #conteudo {
+        float: right;
+    }
+    
+
+    #conteudo img {
+        width: 650px;
+        margin: 0px 70px 0px 100px;
+        float: left;
+    }
+
+    #conteudo h1 {
+        font-family: var(--font-familly);
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    #register {
+        padding: 15px 60px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.445);
+        margin-bottom: 260px;
+    }
+
+    #register span {
+        font-size: 17px;
+    }
+
+    footer {
+        text-align: end;
+        margin-right: 30px;
+    }
 
 }
